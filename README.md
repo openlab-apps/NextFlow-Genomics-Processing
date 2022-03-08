@@ -1,6 +1,6 @@
 # NextFlow-Genomics-Processing
 
-# Format Conversion + Variant calling in one-step (BAM-to-VCF)
+# Format Conversion + Variant calling in one-step (BAM-to-VCF). Single Sample Variant Calling
 
 A single workflow that combines Paired-fastqs to uBAM and Per-Sample Variant Calling.
 
@@ -16,7 +16,7 @@ Takes fastq files as inputs and outputs vcf files.
   ```
  # Inputs:
 
-work-dir: nextflow work directory. Must be a location in s3
-outdir: location in s3 where outputs are saved
-input_fofn: an input manifest file of tab-delimited values as in Paired-fastqs to uBAM
-projectId: used as directory name for output vcf files
+- work-dir: nextflow work directory. Must be a location in s3
+- outdir: location in s3 where outputs are saved
+- input_fofn: an input manifest file of tab-delimited values as in Paired-fastqs to uBAM 
+- projectId: used as directory name for output vcf files 
