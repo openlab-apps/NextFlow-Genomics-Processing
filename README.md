@@ -23,6 +23,6 @@ Takes fastq files as inputs and outputs vcf files.
 
 # To Do
 
--Implement GVCF genotyping (using JointGenotyping.nf)
--Implement CNN-based caller?
--Variant Annotation 
+- Implement GVCF genotyping (using JointGenotyping.nf)
+- Implement CNN-based caller?
+- Variant Annotation 
