@@ -12,7 +12,7 @@ nextflow.enable.dsl=2
 
 
 include { formatConversion } from './paired-fastq-to-unmapped-bam.nf'
-include { preprocessing_mapping; quality_recalibraiton; variant_discovery  } from './processing-for-variant-discovery-gatk4.nf'
+include { preprocessing_mapping; quality_recalibration; variant_discovery  } from './processing-for-variant-discovery-gatk4.nf'
 
 fastq_files_list = file(params.input_fofn)
 

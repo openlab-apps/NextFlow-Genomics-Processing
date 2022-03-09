@@ -20,3 +20,9 @@ Takes fastq files as inputs and outputs vcf files.
 - outdir: location in s3 where outputs are saved
 - input_fofn: an input manifest file of tab-delimited values as in Paired-fastqs to uBAM 
 - projectId: used as directory name for output vcf files 
+
+# To Do
+
+-Implement GVCF genotyping (using JointGenotyping.nf)
+-Implement CNN-based caller?
+-Variant Annotation 
